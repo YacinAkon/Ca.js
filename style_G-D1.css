@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <!--
+        <input type="radio" name="type" value="normal" /><h1>عادي</h1>
+        <input type="radio" name="type" value="since" /><h1>علمي</h1>
+        <input id="type" type="submit" value="تحديد" />  -->
+          <!-- Paste this within the BODY of your document.  Customize the table, colors, fonts, etc -->
+        <h3 class="Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login:</h3>
+        <button onclick="show()" style="width:auto;" id='Log'>Login</button>
+        <div id="Bd" class="model">
+            <form class="modal-content animate">
+                <div class="imgcontainer">
+                <span onclick="clos()" class="close" title="Close Modal">&times;</span>
+                <img src="http://www.myonlinelimited.com/avatar.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <p class="Sig">
+                        <form autocomplete="on">
+                            <h1>
+                                <lable for="e-mail">
+                                   Your E-Mail:
+                                </lable>
+                            </h1>
+                            <h1>
+                            <input id="e-mail" name="e-mail" type="text" required placeholder="yourname@exemple.com" />
+                            </h1>
+                            <h1>
+                                <lable for="password">
+                                    Your password:
+                                </lable>
+                            </h1>
+                            <h1>
+                            <input id="password" name="pass" type="password" required placeholder="Password" />
+                            </h1>
+                            <br />
+                            <div id="demo"></div>
+                            <br />
+                            <button id="OK" type="Submit" onClick="Si()" style='' title=''>OK</button>
+                            <input type="checkbox" checked="checked"> Remember me
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" onclick="clos()" class="cancelbtn">Cancel</button>
+                                <span class="psw">Forgot <a href="#Forgot-password">password?</a></span>
+                            </div>
+                        </form>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <br />
+        <div id="demo1"></div>
+        <br />
+        <div id="demo2"></div>
+        <br />
+        <table>
+            <td class="CopyRight">
+                <b class="CopyRightF">
+                    Game Download.lnc © 2017
+                </b>
+            </td>
+        </table>
+    </body>
+</html>
